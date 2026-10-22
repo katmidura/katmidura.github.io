@@ -3,29 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
     <title>Kat Midura</title>
   </head>
   <body>
-    <nav>
-      <ol>
-        <li>home</li>
-        <li>design & research/li>
-        <li>about me</li>
-        <li>digital garden/li>
-        <li>contact/li>
-      </ol>
-    </nav>
-    <h1>hi, i am Kat</h1>
-    <p class="my-description">i’m a designer and researcher who likes exploring and creates things that feels human</p>
-    <h2>design & research</h2>
-    <h2>about me</h2>
-    <h2>digital garden</h2>
-    <h2>contact</h2>
+    <!--<a href="#main-content" class="skip-link">Skip to main content</a>--> 
+    <header class="site-header">
+        <a href="/" class="site-logo" aria-label="Homepage">kat midura</a>
+        <nav>
+            <ol>
+                <li><a href="/design-and-research.html">design & research</a></li>
+                <li><a href="/about-me.html">about me</a></li>
+            </ol>
+        </nav>
+
+    </header>
+    
+    <div class="col">
+      <div>
+        <h1>hi, i am Kat</h1>
+        <p class="my-description">i’m a designer and researcher who likes exploring and creates things that feels human</p>
+      </div>
+      <div class="col-col">
+        <a href="/design-and-research.html" class="design-research">design & research</a>
+        
+      </div>
+      <div class="col-col">
+        <a href="/about-me.html" class="about-me">about me</a>
+      </div>
+    </div>
     <footer>
-      <p>instagram</p>
-      <p><a href="https://www.behance.net/katarzynamidura">behance</a></p>
-      <p><a href="https://www.linkedin.com/in/kat-midura/">linkedin</a></p>
-      <p><a href="https://github.com/katmidura">github</a></p>
+      <a href="https://www.behance.net/katarzynamidura" target="_blank">behance</a>
+      <a href="https://www.linkedin.com/in/kat-midura/" target="_blank">linkedin</a>
     </footer>
 
   </body>

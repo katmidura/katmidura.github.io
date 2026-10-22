@@ -1,0 +1,104 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    font-family: "Host Grotesk", sans-serif;
+}
+nav {
+    
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col > * {
+    width:100%;
+    
+}
+.col-col {
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex: row;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ol li {
+    float: left;
+}
+
+ol li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.design-research {
+    background: url("/images/design-and-research.png");
+    background-color: transparent;
+     background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+.digital-garden {
+    background: url("/images/digital-garden.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+.about-me {
+    background: url("/images/about-me.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+.contact {
+    background-image: url("/images/contact.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+@media (min-width:1024px) {
+    .col > * {
+        width:25%;
+    }
+    .col > *:nth-child(1) {
+        width:50%;
+    }
+    .col > *:nth-child(2) {
+        order:-1;
+    }
+}

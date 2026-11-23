@@ -1,44 +1,42 @@
 body {
     font-family: "Host Grotesk", sans-serif;
     background-color: #F3CD9A;
+    position: relative;
 }
 
 header {
-    display: flex;
-    flex: row;
+
 }
 
-ol {
-    list-style-type: none;
+.site-logo {
+    padding: 32px;
+    display: grid;
+    place-items: center;
+}
+
+.site-header {
+    display: grid;   
+    width: 100%;   
+}
+
+.main-nav {
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
-ol li {
-    float: left;
-}
-
-ol li a {
+.main-nav a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-footer a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+a:visited {
     text-decoration: none;
+    color: black;
+    
 }
 
-.nav-columns {
-    display: flex;
-    padding: 64px;
+.left-nav {
+    margin-left: auto;
 }
 
 .nav-button {
@@ -46,8 +44,6 @@ footer a {
     padding: 15px 32px;
     border-radius: 30px;
     transition: all 0.2s ease-out;
-    display: grid;
-    place-items: center;
     gap: 16px;
     width: 270px;
 }
@@ -59,20 +55,33 @@ footer a {
     
 }
 
+main {
+  position: absolute;
+  top: 50%;
+  width: 33%;
+  left: 33%;
+  
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+footer a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .case-study-hero {
     background-color: whitesmoke;
 }
 
-.site-logo {
-    padding: 32px;
-    display: grid;
-    place-items: center;
-}
-
-.site-header {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    background: red;
-    
-}

@@ -13,11 +13,12 @@
     
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
 
     <title>Kat Midura</title>
   </head>
@@ -27,147 +28,115 @@
         <a href="/">← go back to the main page</a>
         <a href="/" class="site-logo" aria-label="Homepage">kat midura</a>
 
+    <main id="main-content">
+  
+  
+    <nav aria-label="Case study navigation" class="dot-navigation">
+      <ul>
+        <li><a href="#hero"><span class="sr-only">Wstęp i informacje o projekcie</span></a></li>
+        <li><a href="#context"><span class="sr-only">01 — Context</span></a></li>
+        <li><a href="#problem"><span class="sr-only">02 — Problem</span></a></li>
+        <li><a href="#process"><span class="sr-only">03 — Process</span></a></li>
+        <li><a href="#solution"><span class="sr-only">04 — Solution</span></a></li>
+        <li><a href="#outcome"><span class="sr-only">05 — Outcome</span></a></li>
+      </ul>
+    </nav>
+
+    <header class="case-study-hero" id="hero">
+
+      <h1>KIOSK — Designing a self-service kiosk for university dormitories</h1>
+      
+      <dl class="project-meta">
+        <div>
+          <dt>Overview</dt>
+          <dd>DS Kiosk is a self-service kiosk concept designed to make everyday dormitory services more accessible. It brings selected online and reception-based tasks into one place, allowing students and visitors to complete them independently. My responsibilities included early research, designing the overnight stay flow and its hi-fi interface, creating illustrations, and participating in usability testing.</dd>
+        </div>
+        <div>
+          <dt>Role</dt>
+          <dd>UX/UI Designer</dd>
+        </div>
+        <div>
+          <dt>Timeline</dt>
+          <dd>March – June 2024 (15 weeks)</dd>
+        </div>
+        <div>
+          <dt>Tools</dt>
+          <dd>Figma, FigJam</dd>
+        </div>
+        <div>
+          <dt>Team</dt>
+          <dd>4 UX/UI Designers</dd>
+        </div>
+        <div>
+          <dt>Tags</dt>
+          <dd>UX/UI, Graphic Design</dd>
+        </div>
+      </dl>
+
+      
+      
+      
     </header>
 
-    <h1>Designing a self-service kiosk for university dormitories</h1>
-    <p>Overview:</p>
-    <p>Living in a university dormitory often means that even simple tasks require help from the reception. Some services are available online, while others can only be handled in person. This can make everyday tasks less convenient for students.  As a team, we wanted to explore a different type of interface than the mobile and desktop products we were more familiar with. We decided to try designing a self-service kiosk for university dormitories.  The result was DS Kiosk, a kiosk concept for students, visitors and other dormitory users.  My responsibilities included conducting informal interviews, observing existing kiosks, designing the overnight stay flow and its hi-fi interface, creating illustrations, and taking part in usability testing.</p>
-    
-    <p>Tags:</p>
-    <p>UX/UI, Graphic Design</p>
+    <section id="context">
+      <h2>01 — Context</h2>
+      <p class="section-subtitle">Two separate channels for everyday tasks</p>
+      <p>
+        Dormitory services were split between two channels: an online platform and the reception. Students could reserve study rooms, book laundry slots or report damage online, while tasks such as collecting keys, handling packages or arranging overnight stays required visiting the reception. These channels operated separately, making some everyday processes less convenient.
+      </p>
+    </section>
 
-    <p>My role:</p>
-    <p>UX/UI Designer</p>
-    
-    <p>Team:</p>
-    <p>4 UX/UI Designers</p>
+    <section id="problem">
+      <h2>02 — Problem</h2>
+      <p class="section-subtitle">Services that weren't always accessible</p>
+      <p>
+        The lack of connection between online and reception-based services made everyday tasks harder to manage. Processes also differed between dormitories, making them less predictable for students. Meanwhile, receptionists had to handle a wide range of requests in person. We saw an opportunity to bring selected services together in a self-service kiosk.
+      </p>
+    </section>
 
-    <p>Timeline:</p>
-    <p>March – June 2024 (15 weeks)</p>
+    <section id="process">
+      <h2>03 — Process</h2>
+      <p class="section-subtitle">From existing routines to a self-service experience</p>
+      <p>
+        Our early exploration included informal conversations with people familiar with university dormitories and observations of existing kiosks in shopping centres and a capsule hotel. These activities helped us explore everyday tasks, potential use cases and existing self-service patterns. The interviews were informal and involved a small number of participants, so we treated them as early observations rather than representative research.
+      </p>
 
-    <p>Tools:</p>
-    <p>Figma, Figjam</p>
+      <p>
+        <strong>Decision 1 — prioritizing the overnight stay flow:</strong> As one of the key kiosk functionalities, the overnight stay process became my main design responsibility. After mapping the flow together as a team, I prepared the final wireframes in Figma, focusing on clear instructions, visual guidance and easy navigation between steps.
+      </p>
 
-    <h2>Context</h2>
-    <p>There were two main ways to handle dormitory-related tasks: through the website or at the reception.</p>
-    <p>Through the website, students could:</p>
-    <ul>
-      <li>Reserve a time slot for doing laundry.</li>
-      <li>Reserve a study room.</li>
-      <li>Buy a parking ID.</li>
-      <li>Report damage.</li>
-    </ul>
-    <p>At the reception, students had to:</p>
-    <ul>
-      <li>Inform the receptionist about an expected package.</li>
-      <li>Pay for damage or fines.</li>
-      <li>Collect keys for different facilities.</li>
-      <li>Arrange an overnight stay for visitors.</li>
-    </ul>
+      <p>
+        <strong>Decision 2 — making visitor access more independent:</strong> We introduced a QR code that residents could generate through the DSNet platform and send to their expected visitors. Visitors could then scan the code at the kiosk and complete the process without requiring the resident to visit the reception. The code could also be reset if it reached an unauthorized person.
+      </p>
 
-    <p>These two channels were not connected. Some tasks could only be completed in person, while others were available online.</p>
-    
-    <h2>Problem</h2>
-    <p>The lack of connection between these systems made managing everyday dormitory tasks less convenient.  There were also differences between the processes in different AGH dormitories. This made it harder for students to remember how to handle each task.  At the same time, receptionists had to deal with many residents and their requests, which could make it difficult to communicate information to everyone.  These issues gave us an opportunity to explore how selected dormitory services could be made easier to access.</p>
+      <p>
+        <strong>Decision 3 — refining the interface through testing:</strong> We tested the hi-fi prototype with three participants. Based on their feedback, we improved purchase confirmation, button visibility and document verification, and removed unnecessary navigation from the final screen.
+      </p>
+    </section>
 
-    <h2>From Observation to Concept</h2>
-    <p>As a team, we wanted to try designing something different from the mobile and desktop interfaces we usually worked on. We were interested in exploring how an interface could work on a physical device. The idea became more concrete when I noticed an information screen in one of the AGH dormitory buildings. It already displayed useful information for students, but I thought it could have more potential. What if this screen could become a self-service kiosk? We started exploring the idea of a kiosk that could not only display information but also help students and visitors complete selected dormitory tasks. The idea came from our interest in exploring a different type of interface and my observation of the existing screen. Our interviews helped us understand some of the everyday difficulties in dormitories, but they did not prove that a kiosk was the best solution. We treated it as a concept worth exploring and developing further.</p>
+    <section id="solution">
+      <h2>04 — Solution</h2>
+      <p class="section-subtitle">One kiosk, multiple dormitory services</p>
+      <p>
+        DS Kiosk brought six main functionalities together in a single touchscreen interface, including overnight stays, package handling, key and vacuum cleaner collection, parking ID purchases, and damage reporting and payments.
+      </p>
+      <p>
+        My main contribution was the overnight stay flow and its hi-fi interface. I also created 18 custom illustrations to give the interface a friendlier and more consistent visual character. The team prepared reusable components to maintain consistency across screens. The visual direction was inspired by the identity of AGH dormitories.
+      </p>
+    </section>
 
-    <h2>Exploration</h2>
-    <h3>Interviews</h3>
-    <p>As an initial step, our team spoke with people who had experience with university dormitories.  During classes, each team member conducted individual conversations with people from our year. I personally interviewed around two participants. We used informal, open-ended questions rather than a structured interview guide.  The conversations helped us explore everyday dormitory tasks and some of the difficulties connected with using reception services.</p>
-    <p>Some of the topics that came up were:</p>
+    <section id="outcome">
+      <h2>05 — Outcome</h2>
+      <p class="section-subtitle">A more independent dormitory experience</p>
+      <p>
+        The project resulted in a high-fidelity kiosk concept combining several dormitory services in one place. The overnight stay flow explored a more independent visitor experience through QR code verification, while usability testing helped identify and address interface issues.
+      </p>
+      <p>
+        The concept also included additional service screens, a set of reusable UI components and 18 custom illustrations. It was a high-fidelity concept, not a deployed product.
+      </p>
+    </section>
 
-    <ul>
-      <li>Students wanted an easier way to handle common dormitory-related responsibilities.</li>
-      <li>Tasks such as inviting visitors and handling packages could be inconvenient.</li>
-      <li>Easier payments and faster ways to report problems were among the needs discussed.</li>
-      <li>Having access to useful services at different times was important.</li>
-    </ul>
-
-    <p>These conversations gave us an initial understanding of the problem. However, because the interviews were informal and involved a small number of participants, we treated them as early observations rather than representative research.</p>
-    
-    <h3>Observing existing kiosks</h3>
-    <p>After coming up with the kiosk idea, I wanted to look at existing examples and see how these devices were designed.  I visited shopping centres and a capsule hotel to observe different self-service kiosks.  I mainly focused on their physical appearance and form rather than their interfaces or detailed functionality. I noticed different types of kiosks and used them as inspiration for our design.  The capsule hotel was especially interesting because its kiosks were also connected with accommodation services. However, its users were short-term guests, while our target users would mostly be long-term dormitory residents.  This made me think about how the physical form of a kiosk could be adapted to the environment and needs of a university dormitory.</p>
-    <h3>Key insights</h3>
-    <ol>
-      <li>Simplicity and efficiency</li>
-      <p>We wanted the kiosk to be easy to understand and use. We looked at familiar self-service kiosks, such as those used in restaurants and accommodation facilities, as inspiration for its physical form.  Our design would also need additional elements, such as key lockers and a QR code scanner, to support dormitory-related tasks.</p>
-      <li>Different users and their needs</li>
-      <p>The kiosk would not be used only by students living in a particular dormitory. It could also be used by residents of other AGH dormitories, family members and visitors.</p>
-      <li>Balancing user and dormitory needs</li>
-      <p>We also considered the value of the kiosk for the university and dormitories.  One of our ideas was to display advertisements for local events, concerts or career fairs. However, we wanted these to be relevant to residents and not interfere with the main tasks.</p>
-    </ol>
-
-    
-
-    <h2>Designing the Experience</h2>
-    <h3>Lo-fi wireframes</h3>
-    <p>We started by focusing on the overnight stay process, as it was one of the most important functionalities of the kiosk.  First, we created a paper version of the user flow together as a team. After agreeing on the main direction, we worked separately on our wireframes.  I was responsible for preparing the final overnight stay wireframes in Figma.  In my designs, I focused on simplicity and consistency between screens.  I considered a few details that could make the process easier to follow:</p>
-    <ol>
-      <li>Visual arrows showed users where to place their card or what action to take.</li>
-      <li>Users could return to previous steps if they wanted to change something.</li>
-      <li>Underlined text opened pop-ups with more detailed instructions for users who needed them.</li>
-    </ol>
-    <p>I wanted the interface to guide users through the process without showing too much information at once.</p>
-
-    <h2>Visual Design</h2>
-    <p>Once our wireframes were ready, we decided to use the visual style of AGH dormitories as inspiration.  We wanted the kiosk to feel connected to its surroundings while still having a modern and friendly appearance.  Typography: Gilroy Bold and Gilroy Semi-Bold.  Color palette:</p>
-    <ol>
-      <li>Background: #FAF9F6</li>
-      <li>Text: #000000</li>
-      <li>Primary: #94D4A7</li>
-      <li>Secondary: #33553D</li>
-      <li>Accent: #543332</li>
-    </ol>
-    <h3>Illustrations</h3>
-    <p>I created a set of 18 illustrations, first on paper and then in Figma. I wanted them to add a friendly character to the interface and make it more visually consistent with the young audience of the dormitories.</p>
-    <h3>Components</h3>
-    <p>We also prepared reusable components to keep the interface consistent across different screens.</p>
-
-    <h2>Hi-fi Design</h2>
-    <p>DS Kiosk is a touchscreen kiosk concept designed for AGH University of Science and Technology dormitories. It aims to make selected services easier to access for students, visitors and other users.</p>
-    <h3>Lock screen and main screen</h3>
-    <p>The lock screen displays advertisements for local events, such as concerts and career fairs, as well as important information for dormitory residents.  For the main screen, we included all six main functionalities in one place. This way, users could quickly find the task they needed without searching through different menus.</p>
-    <h3>Reserving an overnight stay</h3>
-    <p>The overnight stay flow was the main functionality I worked on. One important part of the process was choosing the user's role. Different users followed different paths depending on their relationship with the dormitory. For example, family members and MS residents did not have to pay for their stay, but they needed to go through a more detailed verification process.</p>
-    <h3>Making the process easier with a QR code</h3>
-    <p>We also wanted to reduce the resident's involvement when someone came to visit them.  Before: The student had to be present during the whole process and go downstairs to the reception to help their visitor.  After: The student could use the DSNet platform to obtain a QR code and send it to the person they were expecting.  The visitor could then go directly to the kiosk and scan the code, without the student having to come downstairs.  The code could also be reset if it reached an unauthorised person.  This was one of the important parts of our concept, as it allowed visitors to complete more of the process independently.</p>
-    <h3>Other functionalities</h3>
-    <p>Besides the overnight stay flow, our team also designed screens for:  Handling packages.  Collecting keys and a vacuum cleaner.  Buying a parking ID.  Reporting and paying for damage.</p>
-    <h2>Usability Testing</h2>
-    <p>After preparing the hi-fi prototype, we conducted usability tests with three participants.  We asked them to complete the overnight stay flow, which was our main focus, and explore the other available functionalities.  During the sessions, we identified several issues that we had not noticed while designing the interface.  Based on the feedback and observations, we made the following improvements:</p>
-    
-    <ol>
-      <li>More feedback after purchasing a parking ID</li>
-      <p>We improved the feedback shown to users after completing the purchase, so they would have a clearer understanding of what happened.</p>
-      <li>Better visual distinction between buttons and information</li>
-      <p>Some buttons and informational elements had the same background color, which made them look too similar. We improved their visual distinction.</p>
-      <li>Adding a document verification screen</li>
-      <p>We added a separate screen for document verification to make this step clearer in the process.</p>
-      <li>Removing the back arrow from the final screen</li>
-      <p>We removed the back arrow from the last screen because it was not needed at that stage of the flow. These changes helped us improve the final prototype based on issues identified during testing.</p>
-    </ol>
-
-    <h2>Outcome</h2>
-    <p>As a result, we created a high-fidelity concept of a self-service kiosk that brought several dormitory-related services together in one place.  The project included an overnight stay flow, additional service screens, a visual design system and a set of custom illustrations.  The concept also explored how a QR code could make the visitor process more convenient for dormitory residents.  However, the project was not without limitations.</p>
-    <h3>What could be improved?</h3>
-    <p>While reviewing the project, I noticed several areas that would need more attention in a future iteration:</p>
-    <ul>
-      <li>Some processes may seem obvious to long-term residents but could be confusing for students who have just moved into a dormitory.</li>
-      <li>Users need clear information when they enter incorrect data, such as a wrong number.</li>
-      <li>Not everyone prefers digital solutions. Some students may still feel more comfortable talking to a receptionist or using a paper register.</li>
-      <li>More structured interviews with a wider range of dormitory residents would help us better understand their needs. We would also need to explore the kiosk's functionality in more detail and test it with more users.</li>
-    </ul>
-
-    <h2>Project Learnings</h2>
-    <p>This project taught me how to turn initial observations into design ideas and develop them into a working prototype.</p>
-    <p>I learned that informal conversations can help identify possible problems, but they are not enough to understand the needs of a whole user group. More structured research would help us make better-informed decisions.</p>
-    <p>A process that seems simple to one person may be confusing to another. It is important to consider different levels of experience and different user needs.</p>
-    <p>Some interface issues only became clear when other people tried to use the prototype. Testing helped us improve the design instead of relying only on our own assumptions.</p>
-    <p>I also learned how to create custom illustrations and use them to make an interface feel more consistent.</p>
-    <p>Looking back, I would spend more time exploring user needs and validating the idea of a kiosk before moving on to the final design. I would also test the solution with a wider range of residents and visitors.</p>
-
+  </main>
 
     <footer>
       <a href="https://www.behance.net/katarzynamidura" target="_blank">behance</a>

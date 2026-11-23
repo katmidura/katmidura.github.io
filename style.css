@@ -1,24 +1,6 @@
 body {
-    max-width: max-content;
-    margin: auto;
     font-family: "Host Grotesk", sans-serif;
-}
-nav {
-    
-}
-
-.col {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.col > * {
-    width:100%;
-    
-}
-.col-col {
-    display:flex;
-    flex-direction: column;
+    background-color: #F3CD9A;
 }
 
 header {
@@ -54,51 +36,43 @@ footer a {
     text-decoration: none;
 }
 
-.design-research {
-    background: url("/images/design-and-research.png");
-    background-color: transparent;
-     background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    padding: 15px 32px;
+.nav-columns {
+    display: flex;
+    padding: 64px;
 }
 
-.digital-garden {
-    background: url("/images/digital-garden.png");
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
+.nav-button {
     cursor: pointer;
     padding: 15px 32px;
+    border-radius: 30px;
+    transition: all 0.2s ease-out;
+    display: grid;
+    place-items: center;
+    gap: 16px;
+    width: 270px;
 }
 
-.about-me {
-    background: url("/images/about-me.png");
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
+.nav-button:hover {
     cursor: pointer;
     padding: 15px 32px;
+    background: rgba(255, 255, 255, 0.2);
+    
 }
 
-.contact {
-    background-image: url("/images/contact.png");
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    border: none;
-    cursor: pointer;
-    padding: 15px 32px;
+.case-study-hero {
+    background-color: whitesmoke;
 }
 
-@media (min-width:1024px) {
-    .col > * {
-        width:25%;
-    }
-    .col > *:nth-child(1) {
-        width:50%;
-    }
-    .col > *:nth-child(2) {
-        order:-1;
-    }
+.site-logo {
+    padding: 32px;
+    display: grid;
+    place-items: center;
+}
+
+.site-header {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background: red;
+    
 }
